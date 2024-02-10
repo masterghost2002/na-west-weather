@@ -1,8 +1,13 @@
 ---
 
-# Next.js PWA Weather App
+# Next.js Weather App
 
 This is a Progressive Web Application (PWA) built with Next.js that displays the weather information of a selected state. It utilizes a weather API to fetch and display the data.
+## Preview
+
+
+https://github.com/masterghost2002/na-west-weather/assets/55751461/aed93e20-d81b-41dc-abbf-7819b5c4c78b
+
 
 ## Features
 - View weather information of selected state.
