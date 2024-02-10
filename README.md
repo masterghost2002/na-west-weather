@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+---
 
-## Getting Started
+# Next.js PWA Weather App
 
-First, run the development server:
+This is a Progressive Web Application (PWA) built with Next.js that displays the weather information of a selected state. It utilizes a weather API to fetch and display the data.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- View weather information of selected state.
+- Progressive Web Application (PWA) for enhanced offline experience.
+- Responsive design for seamless usage across devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Setup Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To set up this project locally, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
+   ```
+   git clone <repository_url>
+   ```
 
-## Learn More
+2. Navigate to the project directory:
+   ```
+   cd nextjs-pwa-weather-app
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Create a `.env.local` file in the root directory of your project and add your weather API key:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```
+   NEXT_PUBLIC_WEATHER_API_KEY=your_weather_api_key_here
+   ```
 
-## Deploy on Vercel
+5. Start the development server:
+   ```
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. Open your browser and visit `http://localhost:3000` to view the app.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Requirements
+
+- Node.js (version 14 or higher)
+- npm (version 6 or higher)
+- Valid API key for a weather API service (such as OpenWeatherMap, WeatherAPI, etc.)
+
+## Environment Variables
+
+This project uses the following environment variables:
+
+- `NEXT_PUBLIC_WEATHER_API_KEY`: API key for the weather API service.
+
+Ensure you have set up these environment variables properly before running the application.
+
+## Deployment
+
+For deployment, you can use platforms like Vercel, Netlify, or your preferred hosting service. Remember to set your environment variables in the deployment environment.
+
+---
